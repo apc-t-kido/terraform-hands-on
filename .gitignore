@@ -1,0 +1,29 @@
+# Terraformディレクトリ
+.terraform/
+
+# 状態ファイル
+*.tfstate
+*.tfstate.backup
+
+# 変数ファイル（必要に応じて）
+*.tfvars
+
+# クラッシュログ
+crash.log
+*.log
+
+# ローカルオーバーライド
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# プランファイル
+*.tfplan
+
+# 機密情報が含まれる可能性のあるファイル
+*.pem
+*.key
+
+# GitHub関連のファイル
+*.github
